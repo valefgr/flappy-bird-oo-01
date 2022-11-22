@@ -15,15 +15,15 @@ body {
 
 .sky {
  background-image: url("img/fb-game-background.png");
- width:100%
+ width:100%;
  height: 580px;
  position:absolute;
  background-repeat: repeat-x;
 }
 .counter {
-  left:45%
+  left:45%;
   top: 50px;
-  z-index: +1
+  z-index: +1;
   position: absolute;
 }
 .bird {
@@ -31,7 +31,7 @@ body {
   position: absolute;
   height: 45px;
   width: 60px;
-  z-index: +2
+  z-index: +2;
   left: 250px;
 }
 .obstacles {
@@ -41,7 +41,7 @@ body {
 }
 .topObstacle {
 background-image: url("img/pipe-green.png");
-transform: rotate(180deg)
+transform: rotate(180deg);
 width: 52px;
 position: absolute;
 left: 400px;
